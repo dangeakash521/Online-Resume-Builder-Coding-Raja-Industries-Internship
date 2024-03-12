@@ -1,0 +1,148 @@
+#cv-template{
+    display:none;
+}
+/*-------------------added-----------------------*/
+/*------------------------------------------*/
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+   
+    text-decoration: none;
+    
+    transition:all .2s linear;
+  }
+  html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+  body{
+    background:#ffffff;
+  }
+  section{
+    padding:2rem 9%;
+  }
+  
+  /*-------------------------------------------*/
+  
+/*-------------------------------------------*/
+
+#nav-bar{
+    width: 100%;
+    position: fixed;
+    top:0; left: 0; right:0;
+   z-index: 1000;
+  }
+  .navbar{
+   background-color: #eae3e3;
+    padding: 0 !important;
+  }
+  
+  .navbar-nav li{
+    padding: 0 10px;
+  }
+  .navbar-nav li a{
+    color: #333;
+    font-size: 20px;
+    float: right;
+    text-align: left;
+  }
+
+  .navbar-toggler{
+    outline: none !important;
+  }
+ /*---------------banner----------------------*/
+#banner{
+  background-image: linear-gradient(to right,#5acb44,#FF7F50); 
+	color: #fff;
+  padding-top:350px ;
+  
+}
+.promo-title{
+	font-size: 35px;
+	font-weight: 600;
+  
+}
+
+
+
+  /*-------------------------------------*/
+  .section-title h3{
+    font-size: 30px;
+    transition: 0.5s;
+  }
+  .heading{
+    text-align: center;
+    font-size: 3.5rem;
+    padding:1rem;
+    color:#666;
+  }
+  .heading span{
+    color:red;
+  }
+
+
+
+  .box{
+    position: relative;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    
+  }
+
+
+
+  .box input{
+    border:0;
+    background:white;
+   
+    border: 2px solid #3498db;
+    padding: 14px;
+
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+ 
+  #linkedinField.lowercase-text {
+    text-transform: lowercase;
+  }
+  #githubField.lowercase-text {
+    text-transform: lowercase;
+  }
+  #webField.lowercase-text {
+    text-transform: lowercase;
+  }
+
+  .box textarea{
+    border:0;
+    background:white;
+    border: 2px solid #3498db;
+    padding: 14px;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+
+/*------------------added end---------------------*/
+.myimg{
+    width: 250px;
+    height: 220px; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%; 
+    border: 2px solid #fff; 
+}
+.background{
+    background-color: rgb(255, 255, 255);
+}
+.background1{
+    background-color: rgb(255, 255, 255);
+}
+.from-control{
+    text-align: left;
+}
+
+/*-------------footer-----------------*/
+#cv-footer{
+  background-image: linear-gradient(to right,#5acb44,#FF7F50); 
+	color: #fff;
+}

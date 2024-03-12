@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- Navbar----------------------------->
+
+<section id="nav-bar">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+        <i class="fas fa-bars"></i>
+  
+      </button>
+
+      <h5 class="heading1" ><b><span>Resume</span> Builder </b></h5>
+<style>
+    .heading1{
+    text-align:left;
+    font-size: 30px;
+    padding:1rem;
+    color:#666;
+  }
+  .heading1 span{
+    color:red;
+  }
+</style>
+   
+      <div class="collapse navbar-collapse" id="navbarNav">
+  
+         <!-- NavBar['ms-auto" is used to mov the nav bar items to rightside] -->
+        <ul class="navbar-nav ms-auto">
+  
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html"><b>Home</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="preview.html"><b>Preview</b></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </section>
+
+<!--  -------------------------------------------    -->
+
+ <!-- -------------------------------- Banner Section--------------------------------------------- --> 
+ <section id="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 ">
+            <p class="promo-title">Build your Resume at your own</p>
+            <h6 class="heading3" style="color: black;">Created By <span style="color: red;">AKASH SAHA</span> using HTML,CSS,JavaScript and Bootstrap</h6>
+        </div>
+        <div class="col-md-6 text-center " >
+            <img src="background1.png" alt="Responsive Image" class="img-fluid" style="max-height: 300px; max-width: 100%;">
+        </div>
+      </div>
+    </div>
+    
+
+  
+  </section>
+
+  
+
+
+<!--  -------------------------------------------    -->
+
+
+
+    
+
+<br><br><br><br>
+<div class="container" id="cv-form">
+
+    <div class ='row'>
+<!----------------------------------------------------------------------------->
+     
+        <div class="col-md-6">
+            <!--first col-->
+
+            <div class="section-title">
+                <h3 class="heading"><b><span>Personal</span> Information </b></h3>
+            </div>
+
+<form class="box" > 
+            
+            
+            <div class="form-group">
+                <label for="nameField"> Your name</label>
+                <br>
+                <input type="text" id="nameField" placeholder="Enter your name" class="form-control"/>
+            </div>
+
+            <div class="form-group mt-2">
+                <label for="contactField"> Your Contact</label>
+                <br>
+                <input type="text" id="contactField" placeholder="Enter your phone number" class="form-control" />
+            </div>
+
+            <div class="form-group mt-2">
+                <label for="addressField"> Your address</label>
+                <br>
+               
+                <textarea  id="addressField" placeholder="Enter your address" class="form-control"  rows="3" cols="42">
+                </textarea>    
+            </div>
+
+        
+
+            <div class="form-group mt-2">
+                <label for="linkedinField">LinkedIn</label>
+                <br>
+                <input  id="linkedinField" placeholder="Enter your address" class="lowercase-text form-control"  />
+                  
+            </div>
+
+            <div class="form-group mt-2">
+                <label for="githubField">Github</label>
+                <br>
+                <input  id="githubField" placeholder="Enter your address" class="lowercase-text form-control" />
+                   
+            </div>
+
+            <div class="form-group mt-2">
+                <label for="webField">Website</label>
+                <br>
+                <input  id="webField" placeholder="Enter your address" class="lowercase-text form-control" />
+                   
+            </div>
+
+<!------------------------------------------------image-->
+            <div class="form-group mt-4">
+                <label for="">Select your photo **</label>
+                <input id="picField" type="file" class="form-control">
+            </div>
+<!---------------------------------------------------------->
+
+
+            <div class="form-group mt-2">
+                <label for="CompanynameField">Company</label>
+                <br>
+                <input type="text" id="CompanynameField" placeholder="Company Name" class="form-control" />
+                <input type="text" id="CompanyroleField" placeholder="Company Role" class="form-control" />
+                <input type="text" id="CompanyyearfromField" placeholder="from"  class="form-control"/>
+                <input type="text" id="CompanyyeartoField" placeholder="to"  class="form-control"/>
+            </div>
+
+
+        </form>
+        </div>
+
+
+<!------------------------------------------------Profectioal Info---------------------------------------------->
+        
+        <div class="col-md-6">
+            <!--second col-->
+
+            <div class="section-title">
+                <h3 class="heading"><b><span>Professional</span> Information </b></h3>
+            </div>
+
+
+<div class="box"> 
+            <div class="form-group mt-2">
+                <label for="">Summary</label>
+                <br>
+                <textarea id="objectiveField" placeholder="Enter your objective" class="form-control" rows="3" cols="42">
+                </textarea>    
+            </div>
+
+            <div class="form-group mt-2">
+                <label for="shhoolnameField">School</label>
+                <br>
+                <input type="text" id="shhoolnameField" placeholder="Enter your School name" class="form-control" />
+                <input type="text" id="shhoolboardField" placeholder="Enter your board name" class="form-control" />           
+                <input type="text" id="shhoolmarksField" placeholder="Enter your 10 percentage" class="form-control"  />
+                <input type="text" id="shhoolyearfromField" placeholder="Year"  class="form-control" />
+            </div>
+
+            <div class="form-group mt-2">
+                <label for="CollegenameField">College</label>
+                <br>
+                <input type="text" id="CollegenameField" placeholder="Enter your College name" class="form-control" />
+                <input type="text" id="CollegeboardField" placeholder="Enter your board name" class="form-control" />
+                <input type="text" id="CollegemarksField" placeholder="Enter your cgpa" class="form-control" />
+                <input type="text" id="CollegeyearfromField" placeholder="from"  class="form-control"/>
+                <input type="text" id="CollegeyeartoField" placeholder="to"  class="form-control"/>
+            </div>
+        
+<!---------------------------------------------------------certficate-->
+            <div class="form-group mt-2" id="certificate">
+                <label for="">Certificates</label>
+                <br>
+                <input type="text" 
+                placeholder="certificate name" 
+                class="form-control certificateField" 
+                size="40"
+                />
+                <br>
+                <!-- add work -->
+            
+                <div class="container mt-2" id="certificateAddButton">
+                    <button onclick="addNewCertificateField()" class="btn btn-primary btn-sm">add</button>
+                </div>
+            </div>
+<!---------------------------------------------------------Hobbies-->
+
+            <div class="form-group mt-2" id="Hobbies">
+                <label for="">Hobbies</label>
+                <br>
+                <input type="text" 
+                placeholder="Hobbies name" 
+                class="form-control HobbiesField" 
+                size="40"
+                />
+                <br>
+                <!-- add hobbies -->
+            
+                <div class="container mt-2" id="HobbiesAddButton">
+                    <button onclick="addNewHobbiesField()" class="btn btn-primary btn-sm">add</button>
+                </div>
+            </div>
+<!---------------------------------------------------------Skill-->
+            <div class="form-group mt-2" id="Skills">
+                <label for="">Skills</label>
+                <br>
+                <input type="text" 
+                placeholder="Skills name" 
+                class="form-control SkillsField" 
+                size="40"
+                />
+                <br>
+                <!-- add Skills -->
+            
+                <div class="container mt-2" id="SkillssAddButton">
+                    <button onclick="addNewSkillsField()" class="btn btn-primary btn-sm">add</button>
+                </div>
+            </div>
+
+<!---------------------------------------------------------language-->
+            <div class="form-group mt-2" id="Language">
+                <label for="">Languages</label>
+                <br>
+                <input type="text" 
+                placeholder="Language name" 
+                class="form-control LanguageField" 
+                size="40"
+                />
+                <br>
+                <!-- add language -->
+            
+                <div class="container mt-2" id="LanguageAddButton">
+                    <button onclick="addNewLangusgeField()" class="btn btn-primary btn-sm">add</button>
+                </div>
+            </div>
+<!--------------------------------------------------------------------------------->
+</form>
+        </div>
+
+
+    </div>
+
+
+
+    <br><br>
+    <div class="container text-center mt-3" >
+        <button onclick="generateCV()" class="btn btn-primary btn-lg"> Create Cv</button>
+    </div>
+
+
+
+
+
+
+
+</div>
+</div>
+<br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+<!----------------------------------------------cv template------------------------------------------->
+<div class="container" id="cv-template">
+        
+    <div class="row">
+        <div class="col-md-4 text-center background1">
+            <!--first col-->
+            <img src="img.jpg" alt="" class="img-fluid myimg" id="imgT" />
+<br>
+           
+            <p id="nameT1"><b>Akash Saha</b></p>
+            <div style="display: inline-block;">
+                <i class="fa-solid fa-phone"></i> &nbsp; &nbsp;<span id="contactT">+91-123456789</span>
+            </div>
+            <br>
+            <div style="display: inline-block;">
+                <i class="fa-solid fa-location-dot"></i> &nbsp; <span id="addressT">Address</span>
+            </div>
+            
+
+            
+               
+                
+           
+            <hr>
+
+            <div style="display: inline-block;">
+                <i class="fa-brands fa-linkedin"></i> &nbsp; <span id="linkedT"><a href="#1">www.linkedin.com</a></span>
+            </div>
+            <br>
+            <div style="display: inline-block;">
+                <i class="fa-brands fa-github"></i> &nbsp; &nbsp;<span id="gitT"><a href="#1">www.github.com</a></span>
+            </div>
+            <br>
+            <div style="display: inline-block;">
+                <i class="fa-solid fa-globe"></i> &nbsp; <span id="webT"><a href="#1">www.website.com</a></span>
+            </div>
+            
+            
+            
+            
+
+
+
+            <div class="card mt-5">
+                <div class="card-header">
+                    <h3>Skills</h3>
+                </div>
+                <div class="card-body">
+                    <ul id="SkillsT">
+                        <li>Skills1</li>
+                        <li>Skills2</li>
+                        <li>Skills3</li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="card mt-5">
+                <div class="card-header">
+                    <h3>Language</h3>
+                </div>
+                <div class="card-body">
+                    <ul id="LanguageT">
+                        <li>Language1</li>
+                        <li>Language2</li>
+                        <li>Language3</li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="col-md-8 mt-4 text-center">
+            <!--second col-->
+            <h1 id="nameT2" class="text-center" style="font-weight: 900;">
+                Akash Saha</h1>
+           
+           <!--cards summmary-->
+            <div class="card mt-4">
+                <div class="card-header background">
+                    <h3>Summary</h3>
+                </div>
+                <div class="card-body">
+                    <p id="objectiveT">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis at recusandae consequuntur placeat odio explicabo voluptas, odit quisquam vel, enim ut dolore soluta voluptate autem! Porro corrupti ad voluptates eaque?</p>
+
+                </div>
+            </div>
+
+
+            <br><br>
+        
+        <div class="row">
+            <div class="col-md-6 text-center">
+            <!--school-->
+            <div class="card mt-8">
+                <div class="card-header background">
+                    <h3>School</h3>
+                </div>
+                <div class="card-body" style="text-align: left;">
+                    <div>
+                        <span style="display: inline-block;"><b>School Name : </b></span>
+                        <span style="display: inline-block;" id="schoolT">XYX</span>
+                    </div>
+                    <div>
+                        <span style="display: inline-block;"><b>School Board: </b></span>
+                        <span style="display: inline-block;" id="schooladdressT">XYX</span>
+                    </div>
+                    <div>
+                        <span style="display: inline-block;"><b>Percentage : </b></span>
+                        <span style="display: inline-block;" id="marksT">XYX</span>
+                        <span style="display: inline-block;">%</span>
+                    </div>
+                    <div>
+                        <span style="display: inline-block;"><b>Year : </b></span>
+                        <span style="display: inline-block;" id="fromT">2000</span>
+                    </div>
+                    
+                    
+
+                </div>
+            </div>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <!--school-->
+                <div class="card mt-8">
+                    <div class="card-header background">
+                        <h3>College</h3>
+                    </div>
+                    <div class="card-body"style="text-align: left;">
+                        <div>
+                            <span style="display: inline-block;"><b>College Name : </b></span>
+                            <span style="display: inline-block;" id="CollegeT">XYX</span>
+                        </div>
+                        <div>
+                            <span style="display: inline-block;"><b>College Board: </b></span>
+                            <span style="display: inline-block;" id="CollegeaddressT">XYZ</span>
+                        </div>
+                        <div>
+                            <span style="display: inline-block;"><b>CGPA : </b></span>
+                            <span style="display: inline-block;" id="CollegemarksT">XYZ</span>
+                        </div>
+                        <div>
+                            <span style="display: inline-block;"><b>Year : </b></span>
+                            <span style="display: inline-block;" id="CollegefromT">2000</span>
+                            <span style="display: inline-block;"> - </span>
+                            <span style="display: inline-block;" id="CollegetoT">2000</span>
+                        </div>
+                        
+    
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 text-center">
+            <!--certificate-->
+            <div class="card mt-4">
+                <div class="card-header background">
+                    <h3>Certificates</h3>
+                </div>
+                
+                <div class="card-body">
+                    <ul id="certificateT">
+                        <li>Course 1</li>
+                        <li>course 2</li>
+                        <li>course 3</li>
+
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-md-6 text-center">
+            <!--Hobbies-->
+            <div class="card mt-4">
+                <div class="card-header background">
+                    <h3>Hobbies</h3>
+                </div>
+                <div class="card-body">
+                    <ul id="hobbiesT">
+                        <li>Hobbies1</li>
+                        <li>Hobbies2</li>
+                        <li>Hobbies3</li>
+
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <!--Experience-->
+                <div class="card mt-4">
+                    <div class="card-header background">
+                        <h3>Experience</h3>
+                    </div>
+                    
+
+                    <div class="card-body" style="text-align: left;">
+                        <div>
+                            <span style="display: inline-block;"><b>Company Name : </b></span>
+                            <span style="display: inline-block;" id="CompanynameT">XYX</span>
+                        </div>
+                        <div>
+                            <span style="display: inline-block;"><b>Company Role: </b></span>
+                            <span style="display: inline-block;" id="CompanyaddressT">XYZ</span>
+                        </div>
+                        <div>
+                            <span style="display: inline-block;"><b>Year : </b></span>
+                            <span style="display: inline-block;" id="CompanyfromT">2000</span>
+                            <span style="display: inline-block;"> - </span>
+                            <span style="display: inline-block;" id="CompanytoT">2000</span>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container mt-3 text-center">
+            <button onclick="printCV()" class="btn btn-primary btn-sm ">
+            print
+            </button>
+        </div>
+       
+</div>
+</div>
+</div>
+
+
+
+
+<!--------------------------------------------------------------------------footer-->
+<div class="container my-5" id="cv-footer">
+
+    <footer class="bg-light text-center text-white">
+
+    <div class="container ">
+      <!-- Section: Social media -->
+      <section class="col mt-2">
+        <span>
+            <a style="font-size: 30px;" href="https://www.linkedin.com/in/akash-saha-610253176"><i class="fa-brands fa-linkedin-in"></i></a> 
+            &nbsp;&nbsp;
+            <a style="font-size: 30px; color: black;" href="https://github.com/AkashSaha2001"><i class="fa-brands fa-square-github"></i></a>
+        </span>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+
+  <hr style="color: black;">
+    <!-- Copyright -->
+    <div class="text-center p-3">
+        <h5 class="footer" ><b>Resume Builder <span> : </span>created by<span> Akash Saha </span></b></h5>
+<style>
+    .footer{
+    text-align:center;
+    font-size: 15px;
+    padding:1rem;
+    color:#666;
+  }
+  .footer span{
+    color:red;
+  }
+</style>
+
+    </div>
+
+  </footer>
+    
+  </div>
+
+
+
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"> </script>
+</body>
+</html>
